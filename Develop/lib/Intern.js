@@ -2,8 +2,17 @@
 const Employee = require('./Employee')
 
 class Intern{
-    constructor(){
+    constructor(school){
+        this.school = school;
 
+    }
+    
+    getSchool(school) {
+
+    }
+
+    getRole() {
+        return ("Intern")
     }
 }
 

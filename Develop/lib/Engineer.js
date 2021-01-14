@@ -3,8 +3,15 @@
 const Employee = require('./Employee')
 
 class Engineer{
-    constructor(){
+    constructor(github){
+        this.github = github
 
+    }
+    getGitHub(github) {
+
+    }
+    getRole(){
+        return ("Engineer")
     }
 }
 

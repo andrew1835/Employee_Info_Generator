@@ -2,16 +2,23 @@
 const Employee = require('./Employee')
 
 class Manager{
-    constructor(){
+    constructor(officeNumber){
+        this.officeNumber = officeNumber;
 
+    }
+    getRole(){
+        return ("Manager")
     }
 }
 
 
 
 
+const manager = new Manager
 
-
+manager.getRole();
 
 
 module.exports = Manager;
+
+
